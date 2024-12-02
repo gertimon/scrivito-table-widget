@@ -1,0 +1,1 @@
+export { initializeTableWidget } from "./initialize";

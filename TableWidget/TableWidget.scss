@@ -1,0 +1,21 @@
+.table-widget-addButton {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  padding: 3px;
+  background-color: #426698;
+  color: white;
+  font-weight: bold;
+}
+
+tbody .table-widget-addButton {
+  left: 0;
+  top: 50%;
+  transform: translateY(50%);
+}
+
+thead .table-widget-addButton {
+  left: 50%;
+  top: 0;
+  transform: translateX(50%);
+}

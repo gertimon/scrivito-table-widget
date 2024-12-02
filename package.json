@@ -1,0 +1,15 @@
+{
+  "name": "scrivito-table-widget",
+  "version": "0.0.1",
+  "description": "A widget for a table storing its content as a matrix in a string attribute.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gertimon",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "*",
+    "scrivito": "*"
+  }
+}
