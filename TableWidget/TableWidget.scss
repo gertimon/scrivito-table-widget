@@ -1,21 +1,56 @@
-.table-widget-addButton {
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  padding: 3px;
-  background-color: #426698;
-  color: white;
-  font-weight: bold;
+.table-widget {
+  .table-widget-addButton {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border: none;
+    line-height: 16px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #426698;
+    color: white;
+    font-weight: bolder;
+    padding: 0;
+  }
+
+  thead th,
+  tbody, td {
+    position: relative;
+    p:last-child {
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  tbody .table-widget-addButton {
+    left: -16px;
+    top: -8px;
+    &.__last {
+      top: initial;
+      bottom: -8px;
+    }
+  }
+
+  thead .table-widget-addButton {
+    left: -8px;
+    top: -12px;
+    &.__last {
+      left: initial;
+      right: -8px;
+    }
+  }
 }
 
-tbody .table-widget-addButton {
-  left: 0;
-  top: 50%;
-  transform: translateY(50%);
+.ql-tooltip {
+  z-index: 1;
 }
 
-thead .table-widget-addButton {
-  left: 50%;
-  top: 0;
-  transform: translateX(50%);
+.ql-container {
+  font-size: 1em !important;
+}
+
+.ql-editor {
+  padding: 0 !important;
+  line-height: 1.5em;
 }

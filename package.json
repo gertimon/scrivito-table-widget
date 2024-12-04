@@ -10,6 +10,9 @@
   "license": "ISC",
   "peerDependencies": {
     "react": "*",
-    "scrivito": "*"
+    "scrivito": "*",
+    "quill": "*",
+    "react-quill": "*",
+    "lodash.debounce": "*"
   }
 }
